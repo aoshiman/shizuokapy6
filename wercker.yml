@@ -1,0 +1,14 @@
+box: debian
+build:
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo 'Update'
+deploy:
+  steps:
+      - s3sync:
+          key_id: $KEY
+          key_secret: $SECRET
+          bucket_url: $URL
+          source_dir: /
