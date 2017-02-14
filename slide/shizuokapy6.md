@@ -44,21 +44,12 @@ $ vagrant init ubuntu/trusty64
 3. 上記コマンドはubuntu/trusty64（14.04）用設定ファイルをinitで作成しますが、該当イメージがローカルにない場合addコマンド無しでAtlasというVagrantboxの公式リポジトリからUbuntu用boxをダウンロードします<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 ---
 
-## 最近起こった困ったこと
-
+## 事例その１
 - 撮りためていた子供のビデオデータをMacBook Air にうっかり流しこんでしまった <!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 - その結果<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 - ディスク容量90%超に<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 - しかたがないのでせっかくダウンロードしたboxファイルを削除する羽目に。。<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
-```
-$ df -ah
-Filesystem      Size   Used  Avail Capacity  iused   ifree %iused  Mounted on
-/dev/disk1     112Gi  101Gi   11Gi    91% 26497364 2824362   90%   /
-devfs          184Ki  184Ki    0Bi   100%      638       0  100%   /dev
-map -hosts       0Bi    0Bi    0Bi   100%        0       0  100%   /net
-map auto_home    0Bi    0Bi    0Bi   100%        0       0  100%   /home
-```
 
 ---
 
