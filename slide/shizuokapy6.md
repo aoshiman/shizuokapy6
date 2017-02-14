@@ -45,16 +45,12 @@ $ vagrant init ubuntu/trusty64
 ---
 
 ## 事例その１
-- 撮りためていた子供のビデオデータをMacBook Air にうっかり流しこんでしまった <!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- その結果<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- ディスク容量90%超に<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-- しかたがないのでせっかくダウンロードしたboxファイルを削除する羽目に。。<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 
 ---
 
-### ディスク容量がひっ迫してるので気軽にVagrantを試せなくなってしまった
-## つらい(ノД`)・゜・。<!-- .element: class="fragment" data-fragment-index="1" -->
+##　　事例その2
+
 
 ---
 
