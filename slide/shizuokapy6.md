@@ -42,15 +42,35 @@
 ---
 
 ## 事例その１
-###　キャッシュクリア
+### キャッシュクリア
 ---
 
-##　　事例その2
-###　特定のメールを受信したら電話をコールする
+<img src="slide/shizuokapy6-1-1.png" style="width: 100%; height: 100%"></img>
+
 ---
 
-##　事例その3
+<img src="slide/shizuokapy6-1-2.png" style="width: 100%; height: 100%"></img>
+
+---
+
+<img src="slide/shizuokapy6-1-3.png" style="width: 100%; height: 100%"></img>
+
+---
+
+## 事例その2
+### 特定のメールを受信したら電話をコールする
+
+---
+
+<img src="slide/shizuokapy6-2.png" style="width: 100%; height: 100%"></img>
+---
+
+## 事例その3
 ### スケジュールイベントを使ったTwitterBotの運営
+
+---
+
+<img src="slide/shizuokapy6-3.png" style="width: 100%; height: 100%"></img>
 
 ---
 
