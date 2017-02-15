@@ -18,7 +18,7 @@
 - 昨年秋より、家庭の事情で AWS Lambda Python を触り始めて現在5プロジェクトを稼働させています<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 - 5プロジェクトを3パターンに分け事例として共有したいと思います<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 - AWS Lambda Pythonを開発する上で便利なツール、Lamveryについても解説します<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-- このスライドはGitHub上でホスティングしています。connpassに同じものを載せましたのでご確認下さい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
+- このスライドはGitHub上でホスティングしています。connpassに同一スライドを載せましたのでご確認下さい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 ---
 
