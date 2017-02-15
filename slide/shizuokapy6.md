@@ -136,7 +136,7 @@
 - KMS（AWS Key Management Service）のサポート
   + 特にencrypt-fileサポートによる恩恵
 - 開発者が日本人（@marcy_terui）
-
+  + 安心感あります。
 ---
 
 ## まとめ
