@@ -133,7 +133,7 @@
 - virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる
   + プロジェクトフォルダを汚さない
 - KMS（AWS Key Management Service）のサポート
-  + 特にencrypt-fileサポートによる恩恵
+  + 特にencrypt-fileサポートによる恩恵
 - 開発者が日本人（@marcy_terui）
 
 ---
