@@ -106,11 +106,11 @@
 ---
 
 ## コード
-- 某レシピサイトの話題のレシピ （https://twitter.com/cookpad_recipe）
-- がんばれアドミン君（https://twitter.com/ad_min_kun）
+- 某レシピサイトの話題のレシピ （ https://twitter.com/cookpad_recipe ）
+- がんばれアドミン君（ https://twitter.com/ad_min_kun ）
   + https://github.com/aoshiman/lambda_adminkun_bot
 
-- 競馬ニュース(https://twitter.com/keiba_news)
+- 競馬ニュース( https://twitter.com/keiba_news )
   + https://github.com/aoshiman/lambda_keibanews_bot
 
 ---
