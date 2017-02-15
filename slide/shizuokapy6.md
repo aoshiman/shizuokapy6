@@ -105,13 +105,13 @@
 ---
 
 ## コード
-### 某レシピサイトの話題のレシピ
+- 某レシピサイトの話題のレシピ
 
-### がんばれアドミン君
-- https://github.com/aoshiman/lambda_adminkun_bot
+- がんばれアドミン君
+  + https://github.com/aoshiman/lambda_adminkun_bot
 
-### 競馬ニュース
-- https://github.com/aoshiman/lambda_keibanews_bot
+- 競馬ニュース
+  + https://github.com/aoshiman/lambda_keibanews_bot
 
 ---
 
