@@ -10,7 +10,8 @@
  - 仕事ではWindows Serverのお守りとVBA書いてます<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
  - Pythonは2008年くらいから触っています（もっぱら趣味）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
  - FlaskというPython製Webアプリケーションフレームワークが好きです<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
- - しがないみかん農家の長男です<!-- .element: class="fragment" data-fragment-index="5" -->
+ - 趣味でみかん作っています<!-- .element: class="fragment" data-fragment-index="5" -->
+ - 今シーズンは10ｔ作りました(^^)v<!-- .element: class="fragment" data-fragment-index="6" -->
 
 ---
 
