@@ -52,6 +52,12 @@
 
 ---
 
+## コード
+- https://github.com/aoshiman/lambda_cloudfront_invalid
+
+---
+
+
 <img src="slide/shizuokapy6-1-1.png" style="width: 100%; height: 100%"></img>
 
 ---
@@ -76,6 +82,12 @@
 
 ---
 
+## コード
+
+- https://github.com/aoshiman/lambda_email2phone
+
+---
+
 <img src="slide/shizuokapy6-2.png" style="width: 100%; height: 100%"></img>
 
 ---
@@ -86,8 +98,17 @@
 ---
 
 ### 前提
-- 2008年頃にほんの出来心で作成したTwitterBotをいまだに止められずにに運用しているが、借りているVPSの費用もだんだん負担に
+- 2008年頃にほんの出来心で作成したTwitterBotをいまだに止められずに運用しているが、借りているVPSの費用も結構な負担に。。
 - 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった
+
+---
+## コード
+- 某レシピサイトの話題のレシピ
+-- 
+- がんばれアドミン君
+-- https://github.com/aoshiman/lambda_adminkun_bot
+- 競馬ニュース
+-- https://github.com/aoshiman/lambda_keibanews_bot
 
 ---
 
