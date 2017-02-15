@@ -107,6 +107,8 @@
 
 ## コード
 - 某レシピサイトの話題のレシピ （ https://twitter.com/cookpad_recipe ）
+  + https://github.com/aoshiman/lambda_cookpad_recipe
+  
 - がんばれアドミン君（ https://twitter.com/ad_min_kun ）
   + https://github.com/aoshiman/lambda_adminkun_bot
 
