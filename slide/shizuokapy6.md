@@ -30,9 +30,9 @@
 
 ## AWS Lambdaとは
 - サーバーをプロビジョニングしたり管理しなくてもコードを実行できるコンピューティングサービス<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- S3などのAWSリソースで発生したイベントからコードを実行する（Function-as-a-Service）
-- 対応言語は Node.js、Java、C# および Python<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- 使用したコンピューティング時間に対してのみ課金<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+- S3などのAWSリソースで発生したイベントからコードを実行する（Function-as-a-Service）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+- 対応言語は Node.js、Java、C# および Python<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+- 使用したコンピューティング時間に対してのみ課金<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 ---
 
@@ -125,11 +125,11 @@
 - https://github.com/marcy-terui/lamvery
 - Lambda functionのデプロイやFunctionそのものを含めた周辺機能の設定・管理を支援するツール<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 - Python製でサポート言語はPythonとNode.js<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- 同じようなツールにlambda-uploaderやApexがある
+- 同じようなツールにlambda-uploaderやApexがある<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
 
-### Lamveryの良いところ
+## Lamveryの良いところ
 - 設定ファイルの形式がYAML（Jinja2をラップしているので変数も埋め込み可）
 - virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる
   + プロジェクトフォルダを汚さない
@@ -140,14 +140,8 @@
 ---
 
 ## まとめ
-- Vagrant便利だけどローカルディスク容量少ないとわりと積むことがある<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- vagrant-digitalocean使えばDigitalOceanをVagrantのboxとして使える<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- ローカルディスク容量節約できるしVirtualboxも不要になる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-
----
-## 最後に
-- Vagarantは仮想環境の構築、操作を容易にしてくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- VagarantとDigitalOceanの組み合わせはローカルリソースを意識せずに仮想環境を構築できる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- VagarantとDigitalOceanとAnsibleを組み合わせることにより、自分好みの開発環境を構築できる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+- AWS Lambda は用途がハマれば便利でお得です<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- サーバーレスは気持ちいい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+- AWS Lambda で Python を選択するなら Lamvery を使おう<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
