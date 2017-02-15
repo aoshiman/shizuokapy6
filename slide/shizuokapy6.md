@@ -28,16 +28,16 @@
 ---
 
 ## AWS Lambdaとは
-- 仮想環境の設定と操作を容易にするコマンドラインツール<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- Rubyで書かれている<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- Windows OSX Linux対応<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-- プロビジョニングツールと組み合わせることで開発環境がすぐ手に入る<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
+- サーバーをプロビジョニングしたり管理しなくてもコードを実行できるコンピューティングサービス<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- S3などのAWSリソースで発生したイベントからコードを実行する（Function-as-a-Service）
+- 対応言語は Node.js、Java、C# および Python<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+- 使用したコンピューティング時間に対してのみ課金<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
 
 ## AWS Lambda Python
-1. 2.7<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-2. サードパーティモジュール<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+1. AWS Lambdaで使用できるPythonのバージョンは2.7<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+2. サードパーティモジュールを使う場合は実行ファイルと同じ場所に含める<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 3. boto3はもともと入っている<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 ---
 
