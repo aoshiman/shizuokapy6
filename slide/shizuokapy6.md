@@ -86,10 +86,10 @@
 ---
 
 前提
-- もともと
+- 2008年頃にほんの出来心で作成したTwitterBotを止められずにに運用しているが、借りているVPSの費用もだんだん負担に
+- 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった
 
 ---
-
 
 <img src="slide/shizuokapy6-3.png" style="width: 100%; height: 100%"></img>
 
