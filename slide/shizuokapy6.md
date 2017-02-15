@@ -120,11 +120,15 @@
 ---
 
 ## Lamveryについて
-- https://cloud.digitalocean.com/
-- 1時間1円で使えるクラウドホスティングサービス（というふれこみ）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- 実際には従量制の512MBプランで$0.007/hr<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- 殆どの機能をAPIから利用できる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-- なによりもVagrantのプロバイダ（VirtualBoxの替わり）として機能する<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
+### Lamveryとは
+- https://github.com/marcy-terui/lamvery
+- Lambda functionのデプロイやFunctionそのものを含めた周辺機能の設定・管理を支援するツール<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- Python製でサポート言語はPythonとNode.js<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+- 同じようなツールにlambda-uploaderやApexがある
+
+---
+
+### Lamveryの良いところ
 
 ---
 
