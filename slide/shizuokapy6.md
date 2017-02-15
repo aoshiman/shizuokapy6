@@ -131,8 +131,9 @@
 ### Lamveryの良いところ
 - 設定ファイルの形式がYAML（Jinja2をラップしているので変数も埋め込み可）
 - virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる
+  + プロジェクトフォルダを汚さない
 - KMS（AWS Key Management Service）のサポート
-  + 特にencrypt-file
+  + 特にencrypt-fileサポートによる恩恵
 - 開発者が日本人（@marcy_terui）
 
 ---
