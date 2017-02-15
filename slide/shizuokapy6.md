@@ -110,7 +110,7 @@
   + https://github.com/aoshiman/lambda_cookpad_recipe
   
 - がんばれアドミン君（ https://twitter.com/ad_min_kun ）
-  + https://github.com/aoshiman/lambda_adminkun_bot
+  + https://github.com/aoshiman/lambda_adminkun_bot
 
 - 競馬ニュース( https://twitter.com/keiba_news )
   + https://github.com/aoshiman/lambda_keibanews_bot
