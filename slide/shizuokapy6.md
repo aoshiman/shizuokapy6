@@ -54,14 +54,20 @@
 ---
 
 ## Python で はじめる AWS Lambda
-### 単純なサンプル
-
+### コンソール内で作成する場合
 ---
-
-### サードパーティモジュールを含めたい場合
+### コンソール外で作成する場合
+#### サードパーティモジュールを含めたい場合
 ```
 pip install module-name -t /path/to/project-dir
 ```
+#### zipで固める
+```
+cd /path/to/project-dir
+
+zip -r upload.zip *
+```
+
 
 ---
 
