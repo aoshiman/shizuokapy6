@@ -40,6 +40,17 @@
 
 ---
 
+## 無料枠について
+- 個人ユースで使用するならばより強く無料枠を意識せねばならない
+  + 1か月あたり100万のリクエストが無料および400,000 GB/秒の実行時間が無料利用枠
+| メモリ（MB） | 無料利用枠の秒数／月 |
+| ------ | ----------- |
+| 128 | 3200000 |
+| engine | engine to be used for processing templates. |
+| ext | extension to be used for dest files. |
+
+---
+
 ## AWS Lambda Python 
 1. AWS Lambdaで使用できるPythonのバージョンは2.7<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 2. サードパーティモジュールを使う場合は実行ファイルと同じ場所に含める<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
