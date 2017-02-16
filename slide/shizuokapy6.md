@@ -55,6 +55,7 @@
 
 ## Python で はじめる AWS Lambda
 ### コンソール内で作成する場合
+
 ---
 
 ### コンソール外で作成する場合
@@ -68,7 +69,6 @@ cd /path/to/project-dir
 
 zip -r upload.zip *
 ```
-
 
 ---
 
