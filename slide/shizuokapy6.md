@@ -42,7 +42,7 @@
 
 ## 無料枠について
 - 個人ユースで使用するならばより強く無料枠を意識せねばならない<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-  + １ヶ月あたり100万リクエストが無料、および400,000 GB/秒の実行時間が無料<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+  + １ヶ月あたり100万リクエストが無料、および400,000 GB/秒の実行時間が無料<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 
 
 | メモリ（MB） | 無料利用枠の秒数／月 | 時間換算 |
