@@ -1,4 +1,4 @@
-## 個人ユースにおける AWS Lambda python 導入事例
+## 個人ユースにおける AWS Lambda Python 導入事例
 
 ### 2017.2.18 Shizuoka.py#6 & shizudev
 ### @aoshiman
