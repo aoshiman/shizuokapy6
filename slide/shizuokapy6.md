@@ -11,7 +11,7 @@
  - Pythonは2008年くらいから触っています（もっぱら趣味）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
  - FlaskというPython製Webアプリケーションフレームワークが好きです<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
  - 趣味でみかん作っています<!-- .element: class="fragment" data-fragment-index="5" -->
- - 今シーズンは10ｔ作りました(^^)v<!-- .element: class="fragment" data-fragment-index="6" -->
+ - 今シーズンは約8ｔ作りました(^^)v<!-- .element: class="fragment" data-fragment-index="6" -->
 
 ---
 
@@ -77,9 +77,9 @@ zip -r upload.zip *
 ---
 
 ### 前提
-- ブログシステムは自作（Flask製）
-- ローカルで記事を作成した後、全て静的ファイルに変換してAmazon S3にアップロードして公開
-- S3の前段にCloudfrountというキャッシュシステムを立てている
+- ブログシステムは自作（Flask製）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- ローカルで記事を作成した後、全て静的ファイルに変換してAmazon S3にアップロードして公開<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+- S3の前段にCloudfrountというキャッシュシステムを立てている<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
 
@@ -107,9 +107,9 @@ zip -r upload.zip *
 ---
 
 ### 前提
-- 子供の習い事の送迎バスは到着10分前にメールをくれる
-- しかしメールに気づかない場合が多い
-- 音声などで知らせてくれる仕組みが必要
+- 子供の習い事の送迎バスは到着10分前にメールをくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- しかしメールに気づかない場合が多い<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+- 音声などで知らせてくれる仕組みが必要<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
 
@@ -129,9 +129,9 @@ zip -r upload.zip *
 ---
 
 ### 前提
-- 2008年頃にほんの出来心で作成したTwitterBot達をいまだに止められずに運用しているが、借りているVPSの費用も結構な負担に。。
-- 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった
-  + 作成したTwitterBotはcronで稼働しており、AWS Lambdaのようなステートレスなサービスとは性質が似ていた
+- 2008年頃にほんの出来心で作成したTwitterBot達をいまだに止められずに運用しているが、借りているVPSの費用も結構な負担に。。<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+  + 作成したTwitterBotはcronで稼働しており、AWS Lambdaのようなステートレスなサービスとは性質が似ているので手直しが少ないと思った<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
   
 ---
 
@@ -161,12 +161,12 @@ zip -r upload.zip *
 ---
 
 ## Lamveryの良いところ
-- 設定ファイルの形式がYAML（Jinja2をラップしているので変数も埋め込み可）
-- virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる
+- 設定ファイルの形式がYAML（Jinja2をラップしているので変数も埋め込み可）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
   + プロジェクトフォルダを汚さない
-- KMS（AWS Key Management Service）のサポート
+- KMS（AWS Key Management Service）のサポート<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
   + 特にencrypt-fileサポートによる恩恵
-- 開発者が日本人（@marcy_terui）
+- 開発者が日本人（@marcy_terui）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
   + 安心感あります
   
 ---
