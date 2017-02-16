@@ -53,10 +53,12 @@
 
 ---
 
-## AWS Lambda Python 
-1. AWS Lambdaで使用できるPythonのバージョンは2.7<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-2. サードパーティモジュールを使う場合は実行ファイルと同じ場所に含める<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-3. boto3はもともと入っている<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+## Python で はじめる AWS Lambda
+### 単純なサンプル
+
+---
+
+### トリガの登録
 
 ---
 
