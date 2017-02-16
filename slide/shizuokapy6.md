@@ -58,7 +58,10 @@
 
 ---
 
-### トリガの登録
+### サードパーティモジュールを含めたい場合
+```
+pip install module-name -t /path/to/project-dir
+```
 
 ---
 
