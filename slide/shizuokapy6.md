@@ -42,7 +42,7 @@
 
 ## 無料枠について
 + 個人ユースで使用するならばより強く無料枠を意識せねばならない<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-  - １ヶ月あたり100万リクエストが無料、および400,000 GB/秒の実行時間が無料<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+  - １ヶ月あたり100万リクエストが無料、および400,000 GB/秒の実行時間が無料
 
 
 | メモリ（MB） | 無料利用枠の秒数／月 | 時間換算 |
@@ -131,7 +131,7 @@ zip -r upload.zip *
 ### 前提
 + 2008年頃にほんの出来心で作成したTwitterBot達をいまだに止められずに運用しているが、借りているVPSの費用も結構な負担に。。<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 + 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-  - 作成したTwitterBotはcronで稼働しており、AWS Lambdaのようなステートレスなサービスとは性質が似ているので手直しが少ないと思った<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+  - 作成したTwitterBotはcronで稼働しており、AWS Lambdaのようなステートレスなサービスとは性質が似ているので手直しが少ないと思った
   
 ---
 
