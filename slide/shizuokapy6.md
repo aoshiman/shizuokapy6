@@ -32,11 +32,15 @@
 - サーバーをプロビジョニングしたり管理しなくてもコードを実行できるコンピューティングサービス<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 - S3などのAWSリソースで発生したイベントからコードを実行する（Function-as-a-Service）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 - 対応言語は Node.js、Java、C# および Python<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+  + Node.js – v0.10.36, v4.3.2 (推奨)
+  + Java – Java 8
+  + Python – Python 2.7
+  + .NET Core – .NET Core 1.0.1 (C#)
 - 使用したコンピューティング時間に対してのみ課金<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 ---
 
-## AWS Lambda Python
+## AWS Lambda Python 
 1. AWS Lambdaで使用できるPythonのバージョンは2.7<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 2. サードパーティモジュールを使う場合は実行ファイルと同じ場所に含める<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 3. boto3はもともと入っている<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
