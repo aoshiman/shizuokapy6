@@ -24,7 +24,7 @@
 ---
 
 ## 皆さんはAWS Lambdaを知ってますかor使ってますか
-<img src="slide/Vagrant.png" style="width: 30%; height: 30%"></img>
+<img src="slide/AWS-Lambda.png" style="width: 30%; height: 30%"></img>
 
 ---
 
