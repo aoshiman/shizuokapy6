@@ -131,7 +131,8 @@ zip -r upload.zip *
 ### 前提
 - 2008年頃にほんの出来心で作成したTwitterBot達をいまだに止められずに運用しているが、借りているVPSの費用も結構な負担に。。
 - 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった
-
+  + 作成したTwitterBotはcronで稼働しており、AWS Lambdaのようなステートレスなサービスとは性質が似ていた
+  
 ---
 
 ## コード
@@ -171,8 +172,9 @@ zip -r upload.zip *
 ---
 
 ## まとめ
-- AWS Lambda は用途がハマれば便利でお得です<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- サーバーレスは気持ちいい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- AWS Lambda で Python を選択するなら Lamvery を使おう<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+- AWS Lambda は用途がハマれば大変便利<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+- サーバーレスは気持ちが楽<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+- 無料枠情報は常に把握しておきたい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+- AWS Lambda で Python を選択するなら Lamvery を使おう<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 ---
