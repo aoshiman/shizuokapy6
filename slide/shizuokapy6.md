@@ -16,10 +16,10 @@
 ---
 
 ## 本日の発表について
-- 昨年秋より、家庭の事情で AWS Lambda Python を触り始めて現在5プロジェクトを稼働させています<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- 5プロジェクトを3パターンに分け事例として共有したいと思います<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- AWS Lambda Pythonを開発する上で便利なツール、Lamveryについても解説します<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-- このスライドはGitHub上でホスティングしています。connpassに同一スライドを載せましたのでご確認下さい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
++ 昨年秋より、家庭の事情で AWS Lambda Python を触り始めて現在5プロジェクトを稼働させています<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ 5プロジェクトを3パターンに分け事例として共有したいと思います<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ AWS Lambda Pythonを開発する上で便利なツール、Lamveryについても解説します<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
++ このスライドはGitHub上でホスティングしています。connpassに同一スライドを載せましたのでご確認下さい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 ---
 
@@ -29,20 +29,20 @@
 ---
 
 ## AWS Lambdaとは
-- サーバーをプロビジョニングしたり管理しなくてもコードを実行できるコンピューティングサービス<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- S3などのAWSリソースで発生したイベントからコードを実行する（Function-as-a-Service）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- 対応言語は Node.js、Java、C# および Python<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-  + Node.js – v0.10.36, v4.3.2 (推奨)
-  + Java – Java 8
-  + Python – Python 2.7
-  + .NET Core – .NET Core 1.0.1 (C#)
-- 使用したコンピューティング時間に対してのみ課金<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
++ サーバーをプロビジョニングしたり管理しなくてもコードを実行できるコンピューティングサービス<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ S3などのAWSリソースで発生したイベントからコードを実行する（Function-as-a-Service）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ 対応言語は Node.js、Java、C# および Python<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+  - Node.js – v0.10.36, v4.3.2 (推奨)
+  - Java – Java 8
+  - Python – Python 2.7
+  - .NET Core – .NET Core 1.0.1 (C#)
++ 使用したコンピューティング時間に対してのみ課金<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 ---
 
 ## 無料枠について
-- 個人ユースで使用するならばより強く無料枠を意識せねばならない<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-  + １ヶ月あたり100万リクエストが無料、および400,000 GB/秒の実行時間が無料<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ 個人ユースで使用するならばより強く無料枠を意識せねばならない<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
+  - １ヶ月あたり100万リクエストが無料、および400,000 GB/秒の実行時間が無料<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 
 
 | メモリ（MB） | 無料利用枠の秒数／月 | 時間換算 |
@@ -77,9 +77,9 @@ zip -r upload.zip *
 ---
 
 ### 前提
-- ブログシステムは自作（Flask製）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- ローカルで記事を作成した後、全て静的ファイルに変換してAmazon S3にアップロードして公開<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- S3の前段にCloudfrountというキャッシュシステムを立てている<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
++ ブログシステムは自作（Flask製）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ ローカルで記事を作成した後、全て静的ファイルに変換してAmazon S3にアップロードして公開<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ S3の前段にCloudfrountというキャッシュシステムを立てている<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
 
@@ -107,15 +107,15 @@ zip -r upload.zip *
 ---
 
 ### 前提
-- 子供の習い事の送迎バスは到着10分前にメールをくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- しかしメールに気づかない場合が多い<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- 音声などで知らせてくれる仕組みが必要<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
++ 子供の習い事の送迎バスは到着10分前にメールをくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ しかしメールに気づかない場合が多い<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ 音声などで知らせてくれる仕組みが必要<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
 
 ## コード
 
-- https://github.com/aoshiman/lambda_email2phone
++ https://github.com/aoshiman/lambda_email2phone
 
 ---
 
@@ -129,21 +129,21 @@ zip -r upload.zip *
 ---
 
 ### 前提
-- 2008年頃にほんの出来心で作成したTwitterBot達をいまだに止められずに運用しているが、借りているVPSの費用も結構な負担に。。<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-  + 作成したTwitterBotはcronで稼働しており、AWS Lambdaのようなステートレスなサービスとは性質が似ているので手直しが少ないと思った<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
++ 2008年頃にほんの出来心で作成したTwitterBot達をいまだに止められずに運用しているが、借りているVPSの費用も結構な負担に。。<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ 2015年秋にcronライクなスケジュールイベントをAWS Lambdaがサポートしたのでずっとやってみたかった<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+  - 作成したTwitterBotはcronで稼働しており、AWS Lambdaのようなステートレスなサービスとは性質が似ているので手直しが少ないと思った<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
   
 ---
 
 ## コード
-- 某レシピサイトの話題のレシピ （ https://twitter.com/cookpad_recipe ）
-  + https://github.com/aoshiman/lambda_cookpad_recipe
++ 某レシピサイトの話題のレシピ （ https://twitter.com/cookpad_recipe ）
+  - https://github.com/aoshiman/lambda_cookpad_recipe
   
-- がんばれアドミン君（ https://twitter.com/ad_min_kun ）
-  + https://github.com/aoshiman/lambda_adminkun_bot
++ がんばれアドミン君（ https://twitter.com/ad_min_kun ）
+  - https://github.com/aoshiman/lambda_adminkun_bot
 
-- 競馬ニュース( https://twitter.com/keiba_news )
-  + https://github.com/aoshiman/lambda_keibanews_bot
++ 競馬ニュース( https://twitter.com/keiba_news )
+  - https://github.com/aoshiman/lambda_keibanews_bot
 
 ---
 
@@ -153,28 +153,28 @@ zip -r upload.zip *
 
 ## Lamveryについて
 ### Lamveryとは
-- https://github.com/marcy-terui/lamvery
-- Lambda functionのデプロイやFunctionそのものを含めた周辺機能の設定・管理を支援するツール<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- Python製でサポート言語はPythonとNode.js<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- 同じようなツールにlambda-uploaderやApexがある<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
++ https://github.com/marcy-terui/lamvery
++ Lambda functionのデプロイやFunctionそのものを含めた周辺機能の設定・管理を支援するツール<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ Python製でサポート言語はPythonとNode.js<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ 同じようなツールにlambda-uploaderやApexがある<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 
 ---
 
 ## Lamveryの良いところ
-- 設定ファイルの形式がYAML（Jinja2をラップしているので変数も埋め込み可）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-  + プロジェクトフォルダを汚さない
-- KMS（AWS Key Management Service）のサポート<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-  + 特にencrypt-fileサポートによる恩恵
-- 開発者が日本人（@marcy_terui）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
-  + 安心感あります
++ 設定ファイルの形式がYAML（Jinja2をラップしているので変数も埋め込み可）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
+  - プロジェクトフォルダを汚さない
++ KMS（AWS Key Management Service）のサポート<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
+  - 特にencrypt-fileサポートによる恩恵
++ 開発者が日本人（@marcy_terui）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
+  - 安心感あります
   
 ---
 
 ## まとめ
-- AWS Lambda は用途がハマれば大変便利<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-- サーバーレスは気持ちが楽<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
-- 無料枠情報は常に把握しておきたい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-- AWS Lambda で Python を選択するなら Lamvery を使おう<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
++ AWS Lambda は用途がハマれば大変便利<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ サーバーレスは気持ちが楽<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ 無料枠情報は常に把握しておきたい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
++ AWS Lambda で Python を選択するなら Lamvery を使おう<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
 
 ---
