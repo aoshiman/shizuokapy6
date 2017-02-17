@@ -192,5 +192,3 @@ zip -r upload.zip *
 + サーバーレスは気持ちが楽<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 + 無料枠情報は常に把握しておきたい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 + AWS Lambda で Python を選択するなら Lamvery を使おう<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
-
----
