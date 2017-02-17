@@ -171,22 +171,22 @@ zip -r upload.zip *
 + virtualenv内で使用するとpipでインストールしたサードパーティモジュールをデプロイ時に自動アーカイブしてくれる<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
   - プロジェクトフォルダを汚さない
 + KMS（AWS Key Management Service）のサポート<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
-  - 特にencrypt-fileサポートによる恩恵は大きい
-  - AWS Lambda には暗号化可能な環境変数をサポートしているが、既存設定ファイル等を丸ごと暗号化できた方が楽
+  - 個人的にはencrypt-fileサポートによる恩恵が大きい
+  - AWS Lambda では暗号化可能な環境変数をサポートしているが、既存設定ファイル等を丸ごと暗号化できた方が楽
 + 開発者が日本人（@marcy_terui）<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
   - 安心感あります
   
 ---
 
 ## Lamveryのzsh補完関数作りました
-+ サブコマンド12種類、オプション22種類あってとても覚えられないので。。
++ サブコマンド12種類、オプション22種類あってとても覚えられないので
 + https://gist.github.com/aoshiman/d2e93f986802f5a359b4dc6f25eff1a3
 + 使い方 https://blog.aoshiman.org/entry/149/
 
 ---
 
 ## まとめ
-+ AWS Lambda は用途がハマれば大変便利<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
-+ サーバーレスは気持ちが楽<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
++ AWS Lambda は用途がうまくハマれば大変便利<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
++ サーバの構築、管理から開放されるのは気持ちが楽<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
 + 無料枠情報は常に把握しておきたい<!-- .element: class="fragment highlight-current-blue" data-fragment-index="3" -->
 + AWS Lambda で Python を選択するなら Lamvery を使おう<!-- .element: class="fragment highlight-current-blue" data-fragment-index="4" -->
