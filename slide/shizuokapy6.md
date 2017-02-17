@@ -74,7 +74,7 @@ cd /path/to/project-dir
 zip -r upload.zip *
 ```
 
-#### アップロードする
++ zipで固めたものをコンソールからアップロードする
 
 ---
 
