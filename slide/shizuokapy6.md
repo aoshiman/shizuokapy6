@@ -171,6 +171,12 @@ zip -r upload.zip *
   
 ---
 
+## Lamveryのzsh補完関数作りました
++ サブコマンド12種類、オプション22種類あってとても覚えられないので。。
++ https://gist.github.com/aoshiman/d2e93f986802f5a359b4dc6f25eff1a3
+
+---
+
 ## まとめ
 + AWS Lambda は用途がハマれば大変便利<!-- .element: class="fragment highlight-current-blue" data-fragment-index="1" -->
 + サーバーレスは気持ちが楽<!-- .element: class="fragment highlight-current-blue" data-fragment-index="2" -->
