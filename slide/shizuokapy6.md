@@ -60,13 +60,11 @@
 
 ### コンソール外で作成する場合
 + サードパーティモジュールを含めたい場合
-
 ```
 cd /path/to/project-dir
 
 pip install module-name -t .
 ```
-
 + zipで固める
   - 注）フォルダが入れ子にならないように
 ```
@@ -74,7 +72,6 @@ cd /path/to/project-dir
 
 zip -r upload.zip *
 ```
-
 + アップロードする
 
 ---
