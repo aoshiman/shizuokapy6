@@ -68,7 +68,7 @@ pip install module-name -t .
 ~~~
 
 + zipで固める
-  - 注）フォルダが入れ子にならないように
++ 注）フォルダが入れ子にならないように
 
 ~~~
 cd /path/to/project-dir
